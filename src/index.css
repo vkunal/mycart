@@ -1,0 +1,117 @@
+.card .price{
+    margin-left: 30px;
+    text-decoration: line-through;
+}
+
+.card .discount{
+    color: green;
+    font-weight: bold;
+}
+
+.card button{
+    background: orange;
+    border-radius: 25px;
+    width: 120px;
+    border: none;
+}
+.card button:hover, .card button:active, .card button:visited, .card button:focus{
+    background: orange;
+    border: none;
+}
+
+.nav-wrapper .container{
+    background: blue;
+    padding: 15px;
+    color: #fff;
+}
+
+.brand-logo, .brand-logo:hover{
+    color: #fff;
+}
+
+.headerRight{
+    float: left;
+    list-style: none;
+}
+
+.headerRight a{
+    color: #fff;
+    margin-left: 15px;
+}
+.headerRight i{
+    color: #fff;    
+}
+.headerRight sup{
+    background: #f00;
+    border-radius: 50%;
+    padding: 2px 6px;
+}
+
+/* cart page css */
+.rowCart{
+    min-height: 130px;
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+.rowCart img{
+    width: 105px;
+    height: 110px;
+    margin-right: 10px;
+}
+.rowCart .priceDesc{
+    margin-top: 20px;
+}
+.priceDesc span{
+    text-decoration: line-through;
+    color: #ccc;
+    margin: 0 10px;
+  }
+  .priceDesc span:last-child{
+    color: green;
+    text-decoration: none;
+  }
+
+  .add-remove{
+      padding: 40px 0;
+  }
+
+  .add-remove a{
+      color: #000;
+      text-decoration: none;
+  }
+
+  .add-remove .plus, .add-remove .minus{
+      font-size: 25px;
+      border-radius: 50%;
+      border: solid 1px #ccc;
+      margin: 0 15px;
+      padding: 3px 14px 5px 14px;
+      cursor: pointer;
+  }
+  
+  .add-remove span.qty{
+      padding: 8px 15px;
+  }
+  .rowCart .remove{
+      padding: 40px 0;
+      cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  .cartPrice-container{
+    border: solid 1px #ccc;
+    padding: 10px;
+  }
+  .totalHeading{
+    border-bottom: solid 1px #eee;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  .orderTotal{
+      font-weight: bold;
+  }
+  .border-bottom{
+    border-bottom: solid 1px #000;
+  }
