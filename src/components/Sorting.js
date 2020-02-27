@@ -9,9 +9,9 @@ class Sorting extends Component {
             <>
                 <strong className="float-left">Sort By</strong>
                 <ul>
-                    <li onClick={sortByPriceAsc}><a href="">Price -- Low High</a></li>
-                    <li onClick={sortByPriceDsc}><a href="">Price -- High Low</a></li>
-                    <li onClick={sortByDiscount}><a href="">Discount -- Hight Low</a></li>
+                    <li onClick={sortByPriceAsc}><a href="#">Price -- Low High</a></li>
+                    <li onClick={sortByPriceDsc}><a href="#">Price -- High Low</a></li>
+                    <li onClick={sortByDiscount}><a href="#">Discount -- Hight Low</a></li>
                 </ul>
             </>
         )
