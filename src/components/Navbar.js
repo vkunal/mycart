@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 
 
 const Navbar = ({ addedItems }) => {
-    console.log(addedItems);
     const totalQty = addedItems.length !== 0 && addedItems.map(o => o.quantity).reduce((a, c) => { return a + c })
     return (
         <nav className="nav-wrapper mb-3">
