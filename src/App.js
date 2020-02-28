@@ -11,12 +11,15 @@ class App extends Component {
         <div className="App">
 
           <Navbar />
-          <Route exact path="/" component={Home} />
-          <Switch>
-            <Route exact path="/cart" component={Cart} />
 
-         </Switch>
-         <Redirect to="/" />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/cart" component={Cart} />
+            <Route path="*">
+              <Redirect to="/" />
+            </Route>
+          </Switch>
+
         </div>
       </Router>
 
